@@ -1,0 +1,882 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+section {
+    overflow: hidden;
+}
+.container {
+    width: 81%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.logo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+nav li a{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+nav li a:hover {
+    color: #FFC300;
+}
+
+header {
+    background: hsla(265, 62%, 40%, 0.8);
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    margin-right: 32px;
+}
+
+.short-menu {
+    display: flex;
+    align-items: center;
+    margin-left: 56px;
+}
+
+.primory-btn{
+    margin-top: 32px;
+    background: #FFC300;
+    border-radius: 24px;
+    border: none;
+    padding: 12px 47px;
+    border: 1px solid transparent;
+    color: #FFFFfF;
+}
+
+.primory-btn:hover {
+    background-color: transparent;
+    border: 1px solid #FFC300;
+    
+    transition: .3s;
+
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+    padding: 236px 0 26px 0;
+    margin: 0;
+    width: 226px;
+}
+
+.zero-block-description {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 570px;
+}
+
+.zero-block {
+    background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+    position: relative;
+    height: 768px;
+}
+
+.backgraund{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.zero-block .container {
+    z-index: 1;
+    position: relative;
+}
+
+.benefits .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h2 {
+    margin: 55px 0 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #333333;
+    z-index: 2;
+}
+
+.benefits-description{
+    width: 39%;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.benefits-group {
+    margin-bottom: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    width: 100%;
+    justify-content: center;
+}
+
+.benefit {
+    width: 370px;
+    height: 224px;
+    margin-top: 32px;
+    box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.benefit img{
+    margin-top: 40px;
+}
+
+.benefit-title {
+    margin: 11px 0 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.benefit-subtitle {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 0.5);
+    margin: 0 24px;
+}
+
+.voluptatibus {
+    background-color: #FDF2FF;
+   
+}
+
+.voluptatibus .container {
+    padding: 144px 0 112px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture {
+position: relative;
+background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+border-radius: 3px;
+width: 570px;
+height: 512px;
+}
+
+.picture img{
+position: absolute;
+top: -32px;
+right: -30px;
+}
+
+.voluptatibus-item {
+   width: 470px;
+   
+}
+
+.voluptatibus-item .benefit-subtitle {
+    margin: 0;
+}
+
+.voluptatibus-item h2 {
+    margin: 0;
+}
+
+.maim-description {
+    margin: 23px 0 6px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.numbers-item {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.number-description {
+    margin-top: 2px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.numbers {
+    margin-right: 108px;
+}
+
+.result {
+    display: flex;
+    margin-top: 36px;
+}
+
+.secondary-btn {
+    margin-top: 40px;
+    background: #C86DD7;
+    border-radius: 24px;
+    padding: 12px 54px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+}
+
+.secondary-btn:hover{
+    border: 1px solid #C86DD7;
+    background: transparent;
+    color: #C86DD7;
+    transition: .3s;
+}
+
+.achievements-item {
+    width: 50%;
+    margin-bottom: 103px;
+    padding-top: 103px;
+}
+
+.achievements-item h2 {
+    margin-top: 0;
+}
+
+.achievements-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 17px;
+}
+
+.achievka {
+    width: calc(50% - 15px);
+    margin-top: 37px;
+}
+
+.achievka .benefit-subtitle {
+    margin: 9px 0 0 0;
+}
+
+.achievements .container{
+    position: relative;
+}
+
+.mobile-picture {
+    position: absolute;
+    right: 16px;
+    top: -8px;
+}
+
+.prices .container {
+    text-align: center;
+
+}
+
+.prices {
+    background-color: #FDF2FF;
+    padding: 55px 0 112px;
+    box-sizing: border-box;
+}
+
+.card-price {
+    text-align: center;
+    width: 370px;
+    height: 416px;
+    background: #FFFFFF;
+    box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+    border-radius: 3px;
+    padding-top: 53px;
+    box-sizing: border-box;
+}
+
+.prices h2 {
+    margin: 0;
+}
+
+.card-price ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.card-price ul li {
+    margin-bottom: 8px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.card-price ul li::before {
+    content: '• ';
+}
+
+.price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    color: #333333;
+    margin: 7px 0 26px;
+}
+
+.prices-group {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.primory-btn.card-btn {
+    background-color: transparent;
+    border-color: #C86DD7;
+    color: #C86DD7;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.primory-btn.card-btn:hover {
+    background-color: #FFC300;
+    border-color: #FFC300;
+    color: #FFFFFF;
+}
+
+.card-price.main-card {
+    background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+}
+
+.card-price.main-card .benefit-title {
+    color: #FFFFFF;
+}
+
+.card-price.main-card .price {
+    color: #FFFFFF;
+}
+
+.card-price.main-card li {
+    color: rgba(255, 255, 255, .5);
+}
+
+.card-price.main-card .primory-btn {
+    background-color: #FFC300;
+    border-color: #FFC300;
+    color: #FFFFFF;
+
+}
+
+.card-price.main-card .primory-btn:hover{
+    background-color: transparent;
+}
+
+.prices .maim-description {
+    width: 49%;
+    margin: 23px auto;
+}
+
+.reviews .container {
+    text-align: center;
+}
+
+.reviews .maim-description {
+    width: 49%;
+    margin: 23px auto;
+}
+
+.card-review {
+    min-width: 49%;
+    padding: 48px 32px 59px;
+    box-sizing: border-box;
+    box-shadow: 12px 9px 27px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+}
+
+.text-review {
+    margin: 18px 0 13px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, .5);
+}
+
+.name-person {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;   
+    color: #333333;
+}
+
+.cards {
+
+    margin-top: 48px;
+}
+
+.card-review:hover {
+    background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+    
+}
+
+.card-review:hover .name-person{
+    color: #FFFFFF;
+}
+
+.card-review:hover .text-review{
+    color: rgba(255, 255, 255, .5);
+}
+
+.scroll {
+    display: flex;
+    margin: 20px auto 64px;
+    justify-content: space-between;
+    width: 104px;
+}
+
+.reviews-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-block h2 {
+    margin: 0;
+}
+
+.head-block button {
+    margin: 0;
+    background-color: transparent;
+    color: #C86DD7;
+    border: 1px solid #C86DD7;
+}
+
+.head-block button:hover {
+    background-color: #C86DD7;
+    color: #FFFFfF;
+}
+
+.veritatis {
+    background-color: #FDF2FF;
+    padding: 63px 0 112px;
+    box-sizing: border-box;
+}
+
+.head-block .benefit-subtitle {
+    width: 31%;
+}
+
+.facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 464px;
+    gap: 15px;
+    margin-top: 64px;
+
+}
+
+.gr-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: url(./images/fact-1.png);
+}
+
+.gr-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background: url(./images/fact-2.png);
+}
+
+.gr-3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background: url(./images/fact-3.png);
+}
+
+.fact-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-left: 32px;
+    width: 50%;
+}
+
+.fact {
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.fact-description {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 11px 0 40px 32px;
+}
+
+.voluptatibus.poris {
+    background-color: #FFFFFF;
+}
+
+.email {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    height: 39px;
+    width: 50%;
+    padding-left: 16px;
+}
+
+.email::placeholder {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 0.5);
+    
+}
+
+.form-secondary {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 38px;
+}
+
+.form-secondary button {
+    margin: 0;
+}
+
+.email-label {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 16px;
+}
+
+.nisi {
+    background-color: #FDF2FF;
+    padding: 55px 0 96px;
+    box-sizing: border-box;
+}
+
+.nisi h2 {
+    margin: 0;
+}
+
+.nisi-card {
+    width: 370px;
+    background: #FFFFFF;
+    box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+    border-radius: 3px;
+}
+
+.card-information {
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+.card-information .benefit-subtitle {
+    margin: 25px 0 0;
+}
+
+.date {
+    margin-bottom: 13px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.nisi-item {
+    display: flex;
+    margin-top: 57px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.information-company {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-right: 130px;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.information-company h2 {
+    margin: 0 0 39px;
+}
+
+.information-company .benefit-subtitle {
+    margin: 0;
+}
+
+.information-company .benefit-title {
+    margin-bottom: 25px;
+}
+
+.social-link a {
+    margin-right: 8px;
+}
+
+.main-form {
+    padding: 30px 32px 48px;
+    box-sizing: border-box;
+    width: 50%;
+    background: #FFFFFF;
+    box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin: 0 0 11px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.request .container {
+    display: flex;
+    padding: 103px 0 112px;
+    box-sizing: border-box;
+}
+
+.main-form  input {
+    width: calc(100% - 30px);
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    margin-top: 13px;
+    padding: 12px 0 12px 16px;
+}
+
+.main-form  input::placeholder {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+label {
+    margin-top: 20px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.request .secondary-btn {
+    width: 100%;
+    margin: 32px 0 0;
+}
+
+textarea {
+    width: calc(100% - 30px);
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    margin-top: 13px;
+    padding: 10px 0 12px 16px;
+}
+
+textarea::placeholder {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 0 58px;
+    box-sizing: border-box;
+
+}
+
+.footer-inform {
+    width: 20%;
+}
+
+.footer-title {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+footer .benefit-subtitle {
+    margin: 0;
+}
+
+footer li {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 0.5);
+    list-style-type: none;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #FDF2FF ;
+}
+
+.botton-footer {
+    width: 100%;
+    text-align: center;
+    padding: 29px 0 42px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(51, 51, 51, .1);
+}
+
+.footer-inform button {
+    background-color: transparent;
+    border: none;
+    padding-left: 8px;
+}
+
+.footer-inform form {
+    display: flex;
+    align-items: center;
+}
+
+.swiper {
+    width: 100%;
+    overflow: hidden;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.nisi-card img{
+width: 100%;
+}
+
+.footer-inform img {
+    width: 39px;
+    height: 39px;
+    margin-bottom: 10px;
+}
